@@ -1,0 +1,102 @@
+body{
+    background: rgb(235, 238, 243);
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*-------------------1. NAVBAR --------------------------------------------*/
+.navbar {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1vw;
+    background: #565cce;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    border-bottom: 2px solid rgb(133, 136, 155);
+    border-top: 3px solid rgb(117, 118, 128);
+    margin-bottom: 5px;
+}
+/*-------------------1. NAVBAR --------------------------------------------*/
+
+
+
+/*-------------------2. FORM --------------------------------------------*/
+.form{
+    display: flex;
+    justify-content: center;
+    align-self: center;   
+    align-items: center;
+    background: rgb(219, 210, 210);
+    width:  fit-content;
+    padding: 5px;
+    padding-right: 14px;;
+    border-radius: 3px;
+    border: 1px solid rgb(99, 96, 96);
+    margin-top: 10px;
+}
+.form input{
+    padding: 4px 6px;
+    margin: 10px 10px;
+    font-size: 18px;
+}
+.form button{
+    cursor: pointer;
+    height: 33px;    
+    background-color: rgb(91, 155, 150);
+    border: 1px solid rgb(82, 116, 139);;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 10px;
+    -webkit-transform: scale(1.2, 1);
+  -moz-transform: scale(1.2, 1);
+  -o-transform: scale(1.2, 1);
+  transform: scale(1.2, 1);
+}
+.form button:hover{
+    background-color: rgb(66, 114, 126);
+}
+/*-------------------2. FORM --------------------------------------------*/
+
+
+/*--------------------------- INFO------------------- */
+.info{
+    display: flex;
+    justify-content: center;
+    align-self: center;   
+    align-items: center;
+    width:  fit-content;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    border-bottom: 2px solid gray;
+}
+.info table{
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+
+.info table tr td {
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.info table tr td:first-child{
+    margin-right: 10px;
+    
+    background-color: rgb(173, 139, 88);
+    font-weight: 500;
+}   
+.info table tr td:nth-child(2){
+    background-color: rgb(153, 154, 167);
+    font-weight: 600;
+}   
+/*--------------------------- INFO------------------- */
+
+
+

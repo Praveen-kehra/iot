@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 
 const Form = () => {
-    // const url = "https://iot-heroku-anpr.herokuapp.com/info/getinfo";
+    const url = "https://iot-heroku-anpr.herokuapp.com/info/getinfo";
     const textInputData = React.useRef();
     const [inputData, setInputData] = useState("");
     const [wrongInput, setWrongInput] = useState(false);
@@ -16,7 +16,7 @@ const Form = () => {
         // console.log(inputData);
         // setIsData(true);
 
-        axios.post('/info/getinfo', {
+        axios.post(url, {
             plateNumber: inputData
         })
             .then((response) => {

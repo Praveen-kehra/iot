@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iot/static/css/main.da47ed55.css",
+    "main.js": "/iot/static/js/main.d389c474.js",
+    "index.html": "/iot/index.html",
+    "main.da47ed55.css.map": "/iot/static/css/main.da47ed55.css.map",
+    "main.d389c474.js.map": "/iot/static/js/main.d389c474.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da47ed55.css",
+    "static/js/main.d389c474.js"
+  ]
+}
